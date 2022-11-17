@@ -13,55 +13,67 @@
             height: 100px;
         }
 
-        main li {color: red; list-style: none; }
+        main li {
+            color: red;
+            list-style: none;
+        }
 
         .campo {
 
             font-weight: bold
         }
 
-        .campo::after{
+        .campo::after {
             content: ":";
         }
 
-        .valor{
+        .valor {
             font-style: italic;
         }
 
-        #nome{color:blue; height: 30px; vertical-align: 40px;}
-
+        #nome {
+            color: blue;
+            height: 30px;
+            vertical-align: 40px;
+        }
     </style>
 </head>
 
 <body>
 
     <header>
-        <h1><img class="img" src="https://yca.org.ar/wp-content/uploads/sites/4/2019/06/perfil-avatar-hombre-icono-redondo_24640-14044.jpg" alt=""><span id="nome">ANDREI SILVEIRA</span></h1>
+        <h1><img class="img"
+                src="https://yca.org.ar/wp-content/uploads/sites/4/2019/06/perfil-avatar-hombre-icono-redondo_24640-14044.jpg"
+                alt=""><span id="nome">ANDREI SILVEIRA</span></h1>
         <hr>
     </header>
-
 
 
     <main>
 
         <li><i>Informações Pessoais</i></li>
         <ul>
-            <section><span class="campo">Endereço</span><span class="valor"> Rua Valdelar dos Santos, 220</span></section>
+            <section><span class="campo">Endereço</span><span class="valor"> Rua Valdelar dos Santos, 220</span>
+            </section>
             <section><span class="campo">Telefone</span><span class="valor"> +55 47 999 11 1727</span></section>
             <section><span class="campo">Email</span><span class="valor"> ajs_silveira@hotmail.com</span></section>
         </ul>
         <hr>
         <li>Informações Acadêmicas</li>
         <ul>
-        <section>MBA em Gestão de Negócios - Irlanda</section>
+            <section>MBA em Gestão de Negócios - Irlanda</section>
         </ul>
         <hr>
         <li>Informações Profissinais</li>
-        <ul><section>Open to work</section></ul>
+        <ul>
+            <section>Open to work</section>
+        </ul>
         <hr>
         <li>Informações Adicionais</li>
-        <ul><section>Me chame para um café</section></ul>
-        
+        <ul>
+            <section>Me chame para um café</section>
+        </ul>
+
 
     </main>
 </body>
