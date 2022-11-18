@@ -70,7 +70,7 @@ main li {
 
 .card {
     margin-top: 5px;
-    margin-inline: 1050px;
+    margin-inline: 1040px;
     font-size: 1.5ch
 }
 
@@ -89,5 +89,15 @@ main li {
 
 body {background-color: white;}
 
-.navbar{display: flex;
-margin-top: 4px;}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
