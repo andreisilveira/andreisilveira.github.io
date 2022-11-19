@@ -2,68 +2,96 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>ANDREI SILVEIRA | CV</title>
-    <style>
-        body,
-        html {
-            height: 100%;
-        }
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANDREI SILVEIRA | CV</title>
+  <!-- <link rel="stylesheet" href="estilos.css"> -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-        * {
-            box-sizing: border-box;
-        }
 
-        .bg-image {
-            background-image: url("_perfil/foto_perfil2.png");
-
-            filter: blur(8px);
-            -webkit-filter: blur(8px);
-            height: 100%;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: 750px;
-        }
-
-        .bg-text {
-            background-color: rgb(0, 0, 0);
-            background-color: rgba(0, 0, 0, 0.4);
-            color: rgb(9, 46, 87);
-            font-weight: bold;
-            font-size: medium;
-            border: 3px solid rgb(9,46,87);
-            position: absolute; 
-            top: 90%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 2;
-            width: 700px;
-            padding: 20px;
-            text-align: right
-        }
-
-        a:link{color:rgb(9, 46, 87);
-        text-decoration: none;}
-
-        a:visited{ color: rgb(9, 46, 87)}
-
-        a:hover{text-decoration: none; color:rgb(9, 46, 87)}
-
-    </style>
 </head>
 
 <body>
-    <div class="bg-image"></div>
+  <header class="row">
+    <div class="col">
 
-    <div class="bg-text">
-        <a href="sobreandrei.html">
-        <h1 >ANDREI SILVEIRA</h1>
-        <h2>desenvolvedor full stack</h2></a>
+      <!-- <div class="navbar">
+        <a href="sobreandrei.html">SOBRE</a>
+        <a href="info_academicas.html">INFORMAÇÕES ACADÊMICAS</a>
+        <a href="idiomas.html">IDIOMAS</a>
+        <a href="cursos_complementares.html">CURSOS COMPLEMENTARES</a>
+        <a href="info_profissionais.html">INFORMAÇÕES PROFISSIONAIS</a>
+        <a href="certificados.html">CERTIFICADOS</a>
+        <a href="contato.html">CONTATO</a>
+      </div> -->
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">ANDREI SILVEIRA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white">
+              <li class="nav-item">
+              <li class="nav-item">
+                <a class="nav-link" href="info_academicas.html">Informações Acadêmicas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="idiomas.html">Idiomas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cursos_complementares.html">Cursos Complementares</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="certificados.html">Certificados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="info_profissionais.html">Informações Profissionais</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Fale Comigo</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="row" ; style="margin: 8px;">
+    <div class="col-5"></div>
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <img src="/perfil/foto_perfil2_rabisco.jpeg" class="card-img-top" alt="...">
+          <p></p>
+          <br>
+          <br>
+          <h3 class="card-title">Andrei,</h3>
+          <p class="card-text" style="text-align: justify;"><h5> # Nascido em Blumenau, SC. Filho de Carlito e Marly, noivo de Adriana. Família é minha
+            base.
+            Amante dos números. Se for para jogar, que seja ALL WIN. Motiva-se por desafios. Lugares novos, partiu
+            conhecer. Empreendedor.</p></h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-5"></div>
+  </main>
+  <footer>
+
+    <div class="footer" style="display: center";>
+      <p>'ATUE COM ENTUSIASMO E SERÁ ENTUSIASTA.' Dale Carnegie</p>
     </div>
 
+  </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
