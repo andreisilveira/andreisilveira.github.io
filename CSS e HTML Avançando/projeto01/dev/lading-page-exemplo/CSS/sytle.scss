@@ -1,0 +1,14 @@
+@import "./variaveis.scss";
+
+:root {
+    $primary;
+    $secondary;
+    $text-color;
+    $text-secondary;
+    $text-tertiary;
+  }
+  
+#event-subscription {
+    background: linear-gradient($color-rgba,$color-rgba),
+      url("../img/hrz-5.jpg");
+}
